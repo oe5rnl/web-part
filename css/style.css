@@ -1,0 +1,183 @@
+
+h1 {
+    position:absolute;left:20px;top:3px;
+    font-size: 94%;
+    font-family: Helvetiva, Consolas, Vivaldi, Arial, sans-serif;
+    line-height: 150%;
+    white-space: nowrap;
+}
+body {
+    font-family: Helvetiva, Consolas, Vivaldi, Arial, sans-serif;
+    // font-family: Consolas, Vivaldi, Arial, Helvetiva, sans-serif;
+}
+
+div#logtext {
+     position:absolute;left:20px;top:50px;
+     font-size: 100%;
+     font-family: monospace;
+     white-space: nowrap;
+}
+div#main_ip {
+     position:absolute;left:20px;top:50px;
+     white-space: nowrap;
+}
+div#main_sq_value {
+     position:absolute;left:20px;top:85px;
+     white-space: nowrap;
+}
+div#main_save_link {
+     position:absolute;left:20px;top:150px;
+     white-space: nowrap;
+}
+div#main_links {
+     position:absolute;left:20px;top:225px;
+     white-space: nowrap;
+}
+
+div#uptime {
+     position:absolute;left:20px;top:270px;
+     font-size: 70%;
+     white-space: nowrap;
+}
+
+div#uptime {
+     position:absolute;left:20px;top:290px;
+     font-size: 70%;
+}
+
+div#main_showlog {
+     position:absolute;left:20px;top:180px;
+     white-space: nowrap;
+}
+
+div#imp {
+     position:absolute;left:20px;top:320px;
+     font-size: 60%;
+     color:#A4A4A4;
+     white-space: nowrap;
+}
+div#intern_imp {
+     position:absolute;left:20px;top:370px;
+     font-size: 60%;
+     color:#A4A4A4;
+     white-space: nowrap;
+}
+div#intern_saved {
+     color:#FF0000;
+     position:absolute;left:20px;top:222px;
+     width:250px;height:20px;
+     //background-color:#efefef;
+     //border:1px solid #ff0000;
+     white-space: nowrap;
+}
+div#intern_sq_state {
+     position:absolute;left:20px;top:53px;
+     white-space: nowrap;
+}
+div#intern_sq_eingabe1 {
+     position:absolute;left:20px;top:93px;
+     white-space: nowrap;
+}
+div#intern_sq_eingabe2 {
+     position:absolute;left:20px;top:145px;
+}
+div#intern_send {
+     position:absolute;left:20px;top:190px;
+     white-space: nowrap;
+}
+div#intern_links {
+     position:absolute;left:20px;top:250px;
+     white-space: nowrap;
+}
+div#intern_sq_std {
+     position:absolute;left:20px;top:120px;
+     white-space: nowrap;
+}
+div#intern_home {
+     position:absolute;left:20px;top:320px;
+}
+div#main_status {
+     border-radius: 5px;
+     position:absolute;left:20px;top:80px;
+     width:172px;height:30px;
+     background-color:#efefef;
+     border:1px solid #000000;
+}
+div#intern_status {
+     border-radius: 5px;
+     position:absolute;left:20px;top:50px;
+     width:172px;height:30px;
+     background-color:#efefef;
+     border:1px solid #000000;
+}
+div#gpio_color_on {
+     position:relative;left:0px;top:-2px;
+     border-radius: 5px;
+     width:50px;height:21px;
+     background-color:#ffefef;
+     border:1px solid #ff0000;
+     color:#ff0000
+}
+div#gpio_color_off {
+     position:relative;left:0px;top:-2px;
+     border-radius: 5px;
+     width:50px;height:21px;
+     background-color:#efefef;
+     border:1px solid #00ff00;
+}
+div#s1 {
+     position:relative;left:9px;top:2px;
+     width:20px;height:19px;
+     background-color:#efefef;
+}
+div#s2 {
+     position:relative;left:5px;top:2px;
+     width:20px;height:19px;
+     background-color:#efefef;
+}
+div#s3 {
+     position:relative;left:9px;top:2px;
+     width:20px;height:19px;
+     background-color:#efefef;
+}
+div#sq_2 {
+     position:relative;left:5px;top:5px;
+}
+div#sq_70 {
+     position:relative;left:60px;top:-18px;
+}
+div#ptt_su {
+     position:relative;left:115px;top:-41px;
+}
+
+form {
+    width: 25em;
+}
+input {
+  //padding: .5em;
+  font-size: 150%;
+  background-color: #fffbf0;
+  border:1px solid #e7c157;
+  //width: 10em;
+  width: 30px;
+  position:absolute;left:48px;top:0px;
+}
+label {
+    display: inline-block;
+    //width: 12em;
+    margin-bottom: 1em;
+    //line-height: 2em;
+    //text-align: right;
+}
+label::after {
+    content: ": ";
+}
+input:invalid {
+    border: 1px solid red;
+}
+button {
+    //margin-left: 14.8em;
+    //width: 10em;
+    //margin-bottom: 1em;
+}
+
